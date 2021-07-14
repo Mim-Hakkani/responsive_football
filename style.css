@@ -76,6 +76,17 @@ body{
 	margin-left: 50px;
 }
 
+ .login a {
+    background-color: #E02C6D;
+    padding: 18px 24px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    display: block;
+    width: 20%;
+}
+
 /**********
 
      main herader section 
@@ -98,13 +109,14 @@ body{
     line-height: 80px;
     margin-top: 0px;
 }
-.header-left-text a,.login a,.highlight-text a {
+.header-left-text a, .login a, .highlight-text a {
     background-color: #E02C6D;
-    padding: 13px 24px;
+    padding: 18px 24px;
     color: #fff;
     letter-spacing: 1px;
-   font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 2px;
+    
 }
 .header-left-text a:hover{
     background-image: linear-gradient(tomato,orange);
@@ -201,10 +213,13 @@ grid-template-columns: repeat(2,1fr);
 .ranking{
     margin-bottom: 50px;
 }
-table{
-    text-align: center;
-    margin: 0 auto;
-    
+table {
+	text-align: center;
+	margin: 0 auto;
+	width: 57%;
+	border: 0px solid gray;
+	box-shadow: 1px 2px 9px grey;
+	padding: 10px;
 }
 thead tr th{
     padding: 15px 35px;

@@ -103,7 +103,14 @@ thead tr th {
     padding: 4px 17px;
     font-size: 20px;
 }
-
+table {
+    text-align: center;
+    margin: 0 auto;
+    width: 35%;
+    border: 0px solid gray;
+    box-shadow: 1px 2px 9px grey;
+    /* padding: 10px; */
+}
 /******** sponsor *********/
 
 .sponsor-title h1, .fifa-title h1 {
