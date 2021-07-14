@@ -70,7 +70,7 @@ body{
     line-height: 80px;
     margin-top: 0px;
 }
-.header-left-text a,.login a {
+.header-left-text a,.login a,.highlight-text a {
     background-color: #E02C6D;
     padding: 13px 24px;
     color: #fff;
@@ -117,5 +117,109 @@ body{
     color: #A2A2A2;
     font-size: 15px;
     line-height: 25px;
-    padding-bottom: 11px;
+    padding-bottom: 20px;
+}
+
+/************
+    copa 2021 highlights
+
+**************/
+.higlights{
+    width: 78%;
+    margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.highlight-text{
+    padding-top: 100px;
+}
+.highlight-text h1 {
+	color: #0A0826;
+	font-size: 58px;
+	line-height: 71px;
+	margin-bottom: 14px;
+}
+.highlight-text p {
+	color: #7D7D7D;
+	font-size: 19px;
+	line-height: 32px;
+	width: 65%;
+	margin-bottom: 35px;
+}
+
+.highlight-image img {
+	height: 471px;
+	width: 696px;
+	margin: 0 auto;
+	display: block;
+	padding-left: 42px;
+}
+/* our sponsor */
+.sponsor-title {
+	padding: 100px 0px 38px 0px;
+}
+hr{
+    width: 10%;
+    text-align: center;
+    margin-top: 25px;
+}
+.sponsor-title h1 {
+	text-align: center;
+	font-size: 50px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	border-width: 10% x;
+	margin: 0px;
+	text-shadow: 1px 7px 7px #557868;
+}
+.our-sponsors-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: rgb(214 212 212 / 30%);
+    padding: 66px 0px;
+}
+.our-sponsors-list img{}
+
+/* foote-area */
+footer{
+    margin-top: 56px;
+}
+.footer-logo img{
+    width: 500px;
+    margin: 10px auto;
+    display: block;
+}
+.footer-icons{
+    text-align: center;
+}
+.footer-icons ul{}
+.footer-icons ul li{
+    height: 40px;
+    width: 41px;
+    background-color: #E02C6D;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 0px 3px;
+}
+.footer-icons ul li i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 9px;
+}
+.footer-text{
+    padding: 15px 0px;
+    text-align: center;
+}
+.footer-text p{
+    color: #515151;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 5px 0px;
+
 }
