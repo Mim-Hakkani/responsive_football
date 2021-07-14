@@ -211,15 +211,13 @@ thead tr th{
     font-size: 28px;
  
 }
-tbody tr {
-    padding: 15px;
+tbody tr td {
+    padding: 10px;
 }
 
-tbody tr th img{
+tbody tr td img{
     margin-top: 10px;
-}
-tbody tr th{
-    border: 1px solid grey;
+
 }
 
 
