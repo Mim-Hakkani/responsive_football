@@ -2,7 +2,7 @@
 
 /* ***************************************Smartphones (portrait)  **************************************** */
 
-@media only screen and (min-width : 300px) and (max-width:480px) {
+@media only screen and (min-width : 300px) and (max-width:500px) {
 
 body{
     padding: 0px 10px;
@@ -68,6 +68,7 @@ body{
 }
 
 /******** copa highlights *********/
+
 .higlights {
     width: 100%;
     grid-template-columns: repeat(1,1fr);
@@ -97,12 +98,14 @@ body{
 
 
 /******* Ranking ***************/
+
 thead tr th {
     padding: 11px 25px;
     font-size: 20px;
 }
 
 /******** sponsor *********/
+
 .sponsor-title h1, .fifa-title h1 {
 
     font-size: 25px;
@@ -133,3 +136,120 @@ thead tr th {
 }
 
 /******************************************* For ipad,Tablets *************************************************/
+@media only screen and (min-width : 500px) and (max-width:768px){
+
+body{
+    padding: 15px;
+}
+
+
+
+
+/*********header area*************/
+
+.header-area {
+    height: 1366px;
+    padding: 50px 20px;
+}
+.nav-header {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0px;
+    margin: 0px;
+    
+}
+.nav-menu ul {
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.nav-menu ul li {
+    display: block;
+}
+.login {
+    margin-top: 11px;
+    margin-left: 34px;
+}
+.main-header-area {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+.header-left-text {
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 0px;
+}
+
+.header-left-text h1 {
+    font-size: 77px;
+    line-height: 92px;
+
+}
+.header-left-text a {
+
+    padding: 21px 29px;
+    margin-bottom: 37px;
+    display: block;
+    width: 170px;
+    font-size: 23px;
+
+   
+}
+.header-banner-image {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.header-banner-image img {
+    width: 100%;
+
+}
+
+
+/********* main sections *********/
+.container {
+    padding: 20px 10px;
+    margin: 0;
+}
+.player-details {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/******** copa highlights *********/
+
+.higlights {
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+}
+.highlight-text {
+    margin-bottom: 50px;
+}
+.highlight-text h1 {
+    color: #0A0826;
+    font-size: 49px;
+    line-height: 59px;
+    margin-bottom: 19px;
+}
+.highlight-text p {
+    color: #6d6666;
+    font-size: 19px;
+    line-height: 34px;
+    width: 100%;
+ 
+}
+.highlight-image img {
+    height: 500px;
+    width: 100%;
+    padding: 0px;
+}
+
+
+/***sponsor******/
+
+.our-sponsors-list {
+    flex-direction: column;
+}
+
+}
