@@ -76,7 +76,11 @@ body{
 	margin-left: 50px;
 }
 
-/* main herader section */
+/**********
+
+     main herader section 
+
+     *****************/
 
 .main-header-area {
     display: flex;
@@ -260,7 +264,7 @@ hr{
           foote-area 
 
           ******************/
-          
+
 footer{
     margin-top: 56px;
 }
