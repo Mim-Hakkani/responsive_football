@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/*-----------------------------------------------------------------------------------
+	
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 headere-images 
+	3. Blog Area
+	4. Highlights area
+	5. Community Area
+	6. Subscribe Area
+	7. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{}
+
+/**************** 2. Header Area ********/
+.header-area{
+	background-color:#2D25A0;
+    height: 750px;
+    padding: 100px;
+}
+
+
+
+
+.nav-header {
+    display: grid;
+    padding: 0px 71px;
+    margin-bottom: 80px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 242px;
+}
+.nav-menu{}
+.nav-menu ul{
+	text-decoration: none;
+}
+.nav-menu ul li{
+	display: inline-block;
+}
+.nav-menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.login{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.main-header-area {
+    display: flex;
+    overflow: hidden;
+}
+.header-left-text {
+    width: 46%;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+.header-left-text h1 {
+    font-size: 65px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 80px;
+    margin-top: 0px;
+}
+.header-left-text a,.login a {
+    background-color: #E02C6D;
+    padding: 13px 24px;
+    color: #fff;
+    letter-spacing: 1px;
+   font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+}
+
+.header-banner-image{
+	width: 53%;
+}
+.header-banner-image img {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
