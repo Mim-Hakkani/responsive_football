@@ -10,7 +10,7 @@ body{
 
 /*********header area*************/
 .header-area {
-    height: 950px;
+    height: 854px;
     padding: 50px 20px;
 }
 .nav-header {
@@ -43,8 +43,8 @@ body{
 }
 
 .header-left-text h1 {
-    font-size: 49px;
-    line-height: 67px;
+    font-size: 42px;
+    line-height: 60px;
 
 }
 .header-banner-image {
@@ -100,7 +100,7 @@ body{
 /******* Ranking ***************/
 
 thead tr th {
-    padding: 11px 25px;
+    padding: 4px 17px;
     font-size: 20px;
 }
 
@@ -136,7 +136,8 @@ thead tr th {
 }
 
 /******************************************* For ipad,Tablets *************************************************/
-@media only screen and (min-width : 500px) and (max-width:768px){
+
+@media only screen and (min-width : 500px) and (max-width:992px){
 
 body{
     padding: 15px;
@@ -253,3 +254,157 @@ body{
 }
 
 }
+
+/************************************ ipad pro ***********************************************/
+
+@media only screen and (min-width : 992px) and (max-width:1366px){
+    
+    body{
+        padding: 15px;
+    }
+    
+    
+    
+    
+    /*********header area*************/
+    
+    .header-area {
+        height: 1366px;
+        padding: 50px 20px;
+    }
+    .nav-header {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    .nav-menu ul {
+        text-decoration: none;
+        margin-bottom: 25px;
+    }
+    .nav-menu ul li {
+        display: block;
+    }
+    .login {
+        margin-top: 11px;
+        margin-left: 34px;
+    }
+    .main-header-area {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+    }
+    .header-left-text {
+        width: 100%;
+        margin-top: 50px;
+        padding-left: 0px;
+    }
+    
+    .header-left-text h1 {
+        font-size: 77px;
+        line-height: 92px;
+    
+    }
+    .header-left-text a, .login a, .highlight-text a {
+        background-color: #E02C6D;
+        padding: 24px 33px;
+        color: #fff;
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 2px;
+        display: block;
+        width: 20%;
+        font-size: 28px;
+    }
+    .header-banner-image {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 50px;
+    }
+    .header-banner-image img {
+        width: 100%;
+    
+    }
+    
+    
+    /********* main sections *********/
+    .container {
+        padding: 20px 10px;
+        margin: 0;
+    }
+    .player-details {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .player p {
+        color: #827a7a;
+        font-size: 20px;
+        line-height: 39px;
+        padding-bottom: 20px;
+    }
+    
+    /******** copa highlights *********/
+    
+    .higlights {
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlight-text {
+        margin-bottom: 50px;
+    }
+    .highlight-text h1 {
+        color: #0A0826;
+        font-size: 67px;
+        line-height: 85px;
+        margin-bottom: 19px;
+    }
+    .highlight-text p {
+        color: #6d6666;
+        font-size: 27px;
+        line-height: 46px;
+        width: 100%;
+    }
+    .highlight-image img {
+        height: 600px;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    /****************** ranking ************/
+    table {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    /***sponsor******/
+    
+    .our-sponsors-list {
+        flex-direction: column;
+    }
+    /********  footer   ************/
+
+footer{
+    padding: 100px 50px;
+    }
+.footer-logo img {
+    width: 420px;
+
+}
+.footer-icons ul li {
+    height: 45px;
+    width: 45px;
+
+}
+.footer-icons ul li i {
+    font-size: 18px;
+    margin-top: 9px;
+}
+.footer-text p {
+
+    font-size: 18px;
+    padding: 5px 0px;
+}
+    }
