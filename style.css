@@ -109,14 +109,15 @@ body{
     line-height: 80px;
     margin-top: 0px;
 }
-.header-left-text a, .login a, .highlight-text a {
+.header-left-text a,.highlight-text a {
     background-color: #E02C6D;
     padding: 18px 24px;
     color: #fff;
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
     border-radius: 2px;
-    
+    display: block;
+    width: 23%;
 }
 .header-left-text a:hover{
     background-image: linear-gradient(tomato,orange);
